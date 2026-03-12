@@ -20,25 +20,12 @@ the notebook — all other cells run unchanged.
 ## Data
 
 All datasets are included in the repository, sourced from FRED.
+Edit the top cell of the notebook to switch between series:
 
 | File | Series | Description |
 |---|---|---|
 | `PAYEMS.csv` | PAYEMS | Total Nonfarm Payroll Employment |
 | `UNRATE.csv` | UNRATE | Unemployment Rate |
-
-## Configuration
-
-Edit the top cell of the notebook to switch between series:
-```python
-col      = "PAYEMS"         # column name in CSV
-csv_file = "PAYEMS.csv"     # filename
-lr       = 1e-4             # learning rate
-```
-
-| Series | CSV | LR |
-|---|---|---|
-| PAYEMS | PAYEMS.csv | 1e-4 |
-| UNRATE | UNRATE.csv | 1e-4 |
 
 ## How It Works
 
